@@ -18,28 +18,6 @@ Merchant Contract :  TZ1afLcPoYLPPZ7vYnn5QQ1vp94cAQNvsTc4
 ```
 (The code for the contract that you are interacting with needs to be present in the editor.)
 
-## Screenshots
-\
-The Customer pays the Merchant Contract 10 tezos.
-\
-![Alt text](Screens/pic1.PNG?raw=true)
-\
-The Merchant Contract stores 9 Tezos, updates the mapping and forwards the rest to the Loyalty Contract.
-\
-![Alt text](Screens/pic2.PNG?raw=true)
-\
-The Loyalty Contract stores 1 tezo and updates the mapping.
-\
-![Alt text](Screens/pic3.PNG?raw=true)
-\
-The customer calls the Merchant Contract for refund of the 1st transaction.
-\
-![Alt text](Screens/pic4.PNG?raw=true)
-\
-The Merchant Contract forwards the 9 Tezos to the Loyalty Contract which then refunds the Customer with all the 10 tezos and the balance decreases to 0.
-\
-![Alt text](Screens/pic5.PNG?raw=true)
-
 ## Further Work
 * Addition of security checks.
 * Multi-customer functionality.
